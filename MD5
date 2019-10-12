@@ -1,8 +1,8 @@
-00ee841ce7590a874a4ffa6b828bbe33 *DESCRIPTION
+9c3e4fdc967889241b7515ca66ce323e *DESCRIPTION
 bbe9779555554ba256f0ff667b832b0a *NAMESPACE
 4e939d3bb624210b6f4673a9dc6f479d *R/NNGP.R
 ca74d6aa635b7424fbf4ddb1b992d645 *R/SGV.R
-666ce197ced0cfa312c6b9fa9673f218 *R/core.R
+ec3c37c3b617b331e1cadd3de1a8a68c *R/core.R
 02ccf9a35a69c9f47619da21434209da *man/R_sparse_chol.Rd
 628b3b757522dc98e2be98ce506520e1 *man/R_sparse_crossprod.Rd
 6049759aac8da46cc5feaec886faf856 *man/R_sparse_solve.Rd
@@ -26,8 +26,8 @@ dd98b8951f4cf7436a145a38f8fd8b86 *man/nsCrossdist.Rd
 98e42409ea43b96d0968d77410b7631b *man/nsCrossdist3d.Rd
 d4cae15e84ec14546e1f9fa8822fc042 *man/nsDist.Rd
 cb9da4b9deedd3875e7a957ac4465482 *man/nsDist3d.Rd
-c90137c347480b70a87d66853d41e68c *man/nsgpModel.Rd
-b92297c02f4ac10c2ce9f88a511948f0 *man/nsgpPredict.Rd
+1a3129bfa67d0bdb490a53fb98233b7a *man/nsgpModel.Rd
+e7d301d555f0a7de67ded8648bbe9abe *man/nsgpPredict.Rd
 781b286002ad8a348bcf9e7ec19a3dcb *man/orderCoordinatesMMD.Rd
 96b62f18f1e42175a144c5ba01b80110 *man/rmnorm_nngp.Rd
 45155ac5b7c5b37e80682ad8df597bc5 *man/rmnorm_sgv.Rd
