@@ -10,7 +10,8 @@ sgvSetup(
   k = 15,
   seed = NULL,
   pred.seed = NULL,
-  order_coords = TRUE
+  order_coords = TRUE,
+  order_coords_pred = TRUE
 )
 }
 \arguments{
@@ -27,6 +28,8 @@ ordering}
 ordering.}
 
 \item{order_coords}{Logical; should the coordinates be ordered.}
+
+\item{order_coords_pred}{Logical; should the coordinates be ordered.}
 }
 \value{
 A list with the following components:
