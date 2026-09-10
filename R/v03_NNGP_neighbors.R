@@ -77,12 +77,14 @@ computeNeighbors <- function(coords,k , proj){
         neighbors_dist[ i, i:k] <- edist[i, i:k]
     }
     
-    for (i in (k+2):N) {
-        curr_sorted_idx = order(edist[i, ])
-        curr_sorted_idx = curr_sorted_idx[curr_sorted_idx < i] 
-        neighbor_idx[i,  ] = curr_sorted_idx[1:min(i, k)]
-        neighbors[i, neighbor_idx[i,]] = 1
-        neighbors_dist[i, 1:k ] <- edist[i, neighbor_idx[i,  ] ]
+    if ((k + 2) <= N) {
+      for (i in (k + 2):N) {
+            curr_sorted_idx <- order(edist[i, ])
+            curr_sorted_idx <- curr_sorted_idx[curr_sorted_idx < i]
+            neighbor_idx[i, ] <- curr_sorted_idx[1:min(i, k)]
+            neighbors[i, neighbor_idx[i, ]] <- 1
+            neighbors_dist[i, 1:k] <- edist[i, neighbor_idx[i, ]]
+      }
     }
     
     
